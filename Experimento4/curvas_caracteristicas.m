@@ -2584,3 +2584,10 @@ i=c+0.1;
 j=d+0.910;
 scatter(i,j,"filled","red");
 grid on
+
+xlabel('Voltaje V_{CE} (V)') 
+ylabel('Corriente I_{C}(mA)')
+
+xticks([0 0.5 1 1.5])
+yticks([0 0.892 1.487 2.396])
+yticklabels({'0','8.29','14.87','23.96'})
